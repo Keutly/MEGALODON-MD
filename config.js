@@ -8,7 +8,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~7VxgjTrT#tZsYqe1ZDB72AuPjRmRWHiXZfxGToLxmQqeDDnK7mhE",
+SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~jd4GzaiB#dLvCoSh8UEBknohqzXZMldIp1wHzvfzM0AjQPHxyTR4",
 // add your Session Id 
 SUDO_LIST: process.env.SUDO_LIST ? process.env.SUDO_LIST.split(',').map(n => n.trim()) : ["50934960331"],
 // example: 50911111111,50922222222
@@ -31,11 +31,11 @@ MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
 MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/rful77.jpg",
 // add custom menu and mention reply image url
-PREFIX: process.env.PREFIX || ",",
+PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "MEGALODON-MD",
 // add bot name here for menu
-STICKER_NAME: process.env.STICKER_NAME || "MEGALODON-MD",
+STICKER_NAME: process.env.STICKER_NAME || "𓆩𖠜кєยՇץ🌀—͟͞͞𝗚",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custom emoji react    
