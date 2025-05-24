@@ -8,7 +8,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~",
+SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~7VxgjTrT#tZsYqe1ZDB72AuPjRmRWHiXZfxGToLxmQqeDDnK7mhE",
 // add your Session Id 
 SUDO_LIST: process.env.SUDO_LIST ? process.env.SUDO_LIST.split(',').map(n => n.trim()) : ["50934960331"],
 // example: 50911111111,50922222222
@@ -31,7 +31,7 @@ MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
 MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/rful77.jpg",
 // add custom menu and mention reply image url
-PREFIX: process.env.PREFIX || ".",
+PREFIX: process.env.PREFIX || ",",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "MEGALODON-MD",
 // add bot name here for menu
@@ -43,9 +43,9 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // choose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links without removing member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "50948702213",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "2250788145722",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "ᴅʏʙʏ ᴛᴇᴄʜ",
+OWNER_NAME: process.env.OWNER_NAME || "𓆩𖠜кєยՇץ🌀—͟͞͞𝗚",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴇɢᴀʟᴏᴅᴏɴ ᴍᴅ*",
 // bot description    
@@ -59,7 +59,7 @@ AUTO_REACT: process.env.AUTO_REACT || "false",
 // auto react on all msgs
 ANTI_BAD: process.env.ANTI_BAD || "false",
 // anti bad words  
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "prive",
 // public/private/inbox/group 
 ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
 // kick user if share link 
